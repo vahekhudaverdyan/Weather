@@ -8,7 +8,7 @@ public class MainWeather {
     private int humidity;
 
 
-    // Геттеры и сеттеры
+    
     public double getTemp() {
         return temp;
     }
