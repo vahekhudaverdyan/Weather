@@ -22,7 +22,6 @@ public class WeatherService {
     }
 
     public WeatherData getWeather(String city) {
-      //  String url = String.format(baseUrl, city, apiKey);
         String apiUrl = "https://api.openweathermap.org/data/2.5/weather";
         String url = UriComponentsBuilder.fromHttpUrl(apiUrl)
                 .queryParam("q", city)
